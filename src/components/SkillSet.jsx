@@ -34,7 +34,7 @@ export default function SkillSet() {
             <li>{js}</li>
             <li>{react}</li>
             <li className="express">
-              <img src="src/assets/express-modified.png" alt="expressLOGO" />
+              <img src="/express-modified.png" alt="expressLOGO" />
             </li>
           </ul>
         </section>
