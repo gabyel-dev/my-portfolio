@@ -1,6 +1,6 @@
 .nav-btn svg {
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   color: var(--bl-text-color);
 }
 
@@ -25,6 +25,14 @@
 /* When open, expand the menu */
 .nav-links.open {
   max-height: 300px; /* Adjust as needed */
-  padding: 10px;
   border: 1px solid var(--text-color);
+}
+
+.nav-links li {
+  padding-bottom: 6px;
+  padding: 6px 8px;
+}
+
+.nav-links-desc {
+  font-size: 7px;
 }

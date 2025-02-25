@@ -58,14 +58,29 @@ export default function Navbar() {
         <button className="nav-btn" onClick={() => setIsOpen(!isOpen)}>
           <FontAwesomeIcon icon={isOpen ? faXmark : faBars} />
         </button>
-        <div
-          className={`nav-links flex flex-col gap-4 ${isOpen ? "open" : ""}`}
-        >
-          <li onClick={scrollHome}>{home}</li>
-          <li onClick={scrollAbout}>{about}</li>
-          <li onClick={scrollSkills}>{technologies}</li>
-          <li onClick={scrollHome}>{projects}</li>
-          <li onClick={scrollHome}>{contact}</li>
+        <div className={`nav-links  ${isOpen ? "open" : ""}`}>
+          <ul className="flex flex-col gap-1 justify-center items-center text-center">
+            <li onClick={scrollHome}>
+              {home}
+              <p className="nav-links-desc">Home</p>
+            </li>
+            <li onClick={scrollAbout}>
+              {about}
+              <p className="nav-links-desc">About</p>
+            </li>
+            <li onClick={scrollSkills}>
+              {technologies}
+              <p className="nav-links-desc">Skills</p>
+            </li>
+            <li onClick={scrollHome}>
+              {projects}
+              <p className="nav-links-desc">Projects</p>
+            </li>
+            <li onClick={scrollHome}>
+              {contact}
+              <p className="nav-links-desc">Contact</p>
+            </li>
+          </ul>
         </div>
       </div>
     </>
