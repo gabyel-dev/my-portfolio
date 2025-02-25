@@ -38,7 +38,7 @@ export default function Header() {
       <div className="nav-bar w-[100vw] h-[60px] overflow-hidden fixed top-0 mont flex flex-row justify-between items-center body-color shadow z-50">
         <div className="text-[var(--text-color)] text-[2.4rem] anurati flex flex-col leading-[7px]">
           <img
-            src="/src/assets/logo.webp"
+            src="src/assets/logo.webp"
             alt="my-logo"
             className="w-10 h-9 mt-1"
           />
