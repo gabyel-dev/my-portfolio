@@ -1,0 +1,30 @@
+.nav-btn svg {
+  width: 25px;
+  height: 25px;
+  color: var(--bl-text-color);
+}
+
+.nav-links {
+  list-style-type: none;
+  position: absolute;
+  top: 30px; /* Adjust as needed */
+  right: -9px;
+  z-index: 9999;
+  padding: 0;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  border: none;
+  background: rgba(255, 255, 255, 0.1); /* Ensure visibility */
+
+  /* Initially hidden */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* When open, expand the menu */
+.nav-links.open {
+  max-height: 300px; /* Adjust as needed */
+  padding: 10px;
+  border: 1px solid var(--text-color);
+}

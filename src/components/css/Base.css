@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/anurati");
+
+:root {
+  --text-color: #6d83f2;
+  --bl-text-color: #383838;
+}
+
+.nav-btn {
+  display: none;
+  top: 13px;
+  position: absolute;
+  right: 18px;
+  position: fixed;
+}
+
+.anurati {
+  font-family: "Anurati", sans-serif;
+}
+
+.mont {
+  font-family: "Montserrat", serif;
+}
+
+.karla {
+  font-family: "Karla", serif;
+}
+
+.shadow {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust thickness */
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray */
+}
+
+/* Scrollbar handle (draggable part) */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color); /* Dark gray */
+  border-radius: 10px;
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .dev-card {
+    padding: 30px 20px;
+    line-height: 1.5rem;
+    font-size: 0.7em;
+  }
+
+  .intro .desc {
+    line-height: normal;
+    padding-top: 2px;
+  }
+
+  .main {
+    margin-top: 60px;
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -60px;
+  }
+
+  .heading-about {
+    padding-top: 150px;
+  }
+
+  .home-card {
+    top: 0;
+    opacity: 0.8;
+  }
+
+  /* about me*/
+  .about-container {
+    width: 100%;
+    height: 190px;
+  }
+
+  .sayings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-container {
+    padding-top: 2240px;
+  }
+
+  .backend {
+    display: none;
+  }
+
+  .skill-set ul li svg {
+    width: 70px;
+    height: 70px;
+  }
+
+  /* navbar */
+  .nav-btn {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    margin-top: 60px;
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -60px;
+  }
+
+  .heading-about {
+    padding-top: 150px;
+  }
+
+  .home-card {
+    top: 0;
+    opacity: 0.8;
+  }
+
+  /* about me*/
+  .about-container {
+    width: 100%;
+    height: 190px;
+  }
+
+  .sayings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-container {
+    padding-top: 2300px;
+  }
+
+  .backend {
+    display: none;
+  }
+
+  .skill-set ul li svg {
+    width: 60px;
+    height: 60px;
+  }
+}
