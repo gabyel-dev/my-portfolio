@@ -86,7 +86,7 @@ export default function AboutMe() {
               <div className="w-[220px] h-[220px] border-[#F9F9F8] border-[5px] bg-[var(--bl-text-color)] rounded-full overflow-hidden flex items-center justify-center mb-8">
                 <div>
                   <img
-                    src="src/assets/profile.webp"
+                    src="/profile.webp"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
