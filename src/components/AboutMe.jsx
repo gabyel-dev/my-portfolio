@@ -31,7 +31,7 @@ const SkewedBackground = styled.div`
   @media (max-width: 768px) {
     height: 100vh; /* Adjust height */
     transform: skewY(-2deg); /* Remove skew for mobile */
-    bottom: -1940px; /* Adjust position */
+    bottom: -2040px; /* Adjust position */
   }
 `;
 
