@@ -136,6 +136,13 @@
   .nav-btn {
     display: block;
   }
+
+  .left h1 {
+    text-wrap: nowrap;
+  }
+  .left .hello {
+    line-height: normal;
+  }
 }
 
 @media (max-width: 500px) {
@@ -171,6 +178,14 @@
   .home-card {
     top: 0;
     opacity: 0.8;
+  }
+
+  .left .hello {
+    line-height: normal;
+  }
+
+  .left h1 {
+    font-size: 2em;
   }
 
   /* about me*/

@@ -30,7 +30,7 @@ export default function Home() {
         />
         <section className="left text-[var(--bl-text-color)] min-w-[200px] max-w-[500px] leading-12">
           <div className="intro">
-            <p className="text-[0.875em] sm:text-[1em] md:text-[1.125em] lg:text-[1.25em] xl:text-[1em] pt-4">
+            <p className="hello text-[0.875em] sm:text-[1em] md:text-[1.125em] lg:text-[1.25em] xl:text-[1em] pt-4">
               Hello, I'm
             </p>
             <h1 className="text-base text-[2.4em] md:text-[2.7em] lg:text-[3em] font-black leading-10 ">
