@@ -4,7 +4,7 @@ Welcome to my **personal portfolio website**! 🚀
 I'm **Gabriel Guban**, a **front-end developer** and **BSIT student** from Philippines.  
 
 ## 💻 Technologies Used  
-- **Frontend:** HTML, CSS, JavaScript, React, Tailwind CSS  
+- **Frontend:** ReactJS, Tailwind, Vanilla CSS
 - **Backend:** *ExpressJS*  
 
 ## 🚀 Future Enhancements  
