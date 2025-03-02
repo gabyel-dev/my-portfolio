@@ -1,13 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./css/Base.css";
 import "./css/AboutMe.css";
-import { faCode, faPaintBrush } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faServer } from "@fortawesome/free-solid-svg-icons";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
 import styled from "styled-components";
 
 const code = <FontAwesomeIcon icon={faCode} />;
 const js = <FontAwesomeIcon icon={faJs} />;
-const creative = <FontAwesomeIcon icon={faPaintBrush} />;
+const server = <FontAwesomeIcon icon={faServer} />;
 const SkewedBackground = styled.div`
   background-image: linear-gradient(
     134deg,
@@ -47,11 +47,10 @@ export default function AboutMe() {
             <li>
               <div>{code}</div>
               <h1 className="text-[var(--text-color)] text-[1.2rem]">
-                FrontEnd
+                FrontEnd and BackEnd
               </h1>
               <p className="karla text-[0.9rem]">
-                I'm more front-end focused and love working with React.js,
-                Tailwind, pure
+                I work with front-end and back-end development.
                 <b> HTML</b>, <b>CSS</b>.
               </p>
             </li>
@@ -66,13 +65,13 @@ export default function AboutMe() {
               </p>
             </li>
             <li>
-              <div>{creative}</div>
+              <div>{server}</div>
               <h1 className="text-[var(--text-color)] text-[1.2rem]">
-                Creative Coding
+                Technologies
               </h1>
               <p className="karla text-[0.9rem]">
-                I love creative coding because I do both coding & designing.
-                making beautiful art with code is very satisfying to me.
+                I love working with React.js, Tailwind, and pure <b>HTML</b> and{" "}
+                <b>CSS</b>.
               </p>
             </li>
           </ul>
@@ -95,12 +94,12 @@ export default function AboutMe() {
               <div className="online"></div>
               {/* Text Below the Image */}
               <p className="text-center w-[80%] mt-5 text-white text-[0.9em]">
-                Hi, I'm Gabriel Guban, a self-taught Front-End developer from
-                Philippines. I'm a First Year BSIT Student. I’ve been building
-                things on the web since 2024, and over months of coding, I’ve
-                gained a strong love for creating intuitive and engaging user
-                interfaces using technologies like HTML, CSS, JavaScript, and
-                React.
+                Hi, I'm Gabriel Guban, a self-taught Full-Stack Web developer
+                from Philippines. I'm a First Year BSIT Student. I’ve been
+                building things on the web since 2024, and over months of
+                coding, I’ve gained a strong love for creating intuitive and
+                engaging user interfaces using technologies like HTML, CSS,
+                JavaScript, Flask and React.
               </p>
 
               <p className="text-center w-[80%] mt-5 text-white text-[0.9em] pb-[7vh]">

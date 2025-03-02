@@ -37,7 +37,7 @@ export default function Home() {
               GABRIEL GUBAN
             </h1>
             <p className="desc text-[1.1em] sm:text-[1.1em] md:text-[1.1em] lg:text-[1.2em] xl:text-[1.3em]">
-              FRONT-END WEB DEVELOPER
+              FULL-STACK WEB DEVELOPER
             </p>
           </div>
 
