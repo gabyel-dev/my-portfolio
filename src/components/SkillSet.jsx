@@ -34,7 +34,7 @@ export default function SkillSet() {
             <li>{html}</li>
             <li>{js}</li>
             <li>{react}</li>
-            <li className="express">
+            <li className="flask">
               <img src="/flask.webp" alt="expressLOGO" />
             </li>
           </ul>
