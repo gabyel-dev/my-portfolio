@@ -69,10 +69,10 @@ export default function AboutMe() {
                 Technologies
               </h1>
               <p className="karla text-[0.9rem]">
-                I love working with React.js, Tailwind, and pure <b>HTML</b> and{" "}
-                <b>CSS</b>, along with backend technologies such as <b>Flask</b>{" "}
-                and <b>Node.js</b>. I also work with <b>SQL</b> databases like{" "}
-                <b>PostgreSQL</b>, <b>MySQL</b> and <b>MongoDB</b>.
+                <p className="karla text-[0.9rem]">
+                  I love working with front-end and back-end technologies,
+                  including UI frameworks, styling libraries, and databases.
+                </p>
               </p>
             </li>
           </ul>
