@@ -1,18 +1,18 @@
-# 🌐 Gabyel - Portfolio  
+# 🌐 Gabyel - Portfolio
 
 Welcome to my **personal portfolio website**! 🚀  
-I'm **Gabriel Guban**, a **front-end developer** and **BSIT student** from Philippines.  
+I'm **Gabriel Guban**, a **FullStack developer**
 
-## 💻 Technologies Used  
+## 💻 Technologies Used
+
 - **Frontend:** ReactJS, Tailwind, Vanilla CSS
-- **Backend:** *ExpressJS*  
 
-## 🚀 Future Enhancements  
-- Add more interactive **projects**  
-- Improve UI/UX with **animations & dark mode**  
-- Implement a **blog section** for sharing insights  
+## 🚀 Future Enhancements
+
+- Add more interactive **projects**
+- Improve UI/UX with **animations & dark mode**
+- Implement a **blog section** for sharing insights
 
 ---
 
-🌟 **Thank you for visiting my portfolio!** Feel free to provide feedback. 🚀  
-
+🌟 **Thank you for visiting my portfolio!** Feel free to provide feedback. 🚀
