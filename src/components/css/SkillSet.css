@@ -11,14 +11,14 @@
 }
 
 @media (max-width: 768px) {
-  .skill-set .express img {
+  .skill-set .flask img {
     width: 70px;
     height: 70px;
   }
 }
 
 @media (max-width: 500px) {
-  .skill-set .express img {
+  .skill-set .flask img {
     width: 60px;
     height: 60px;
   }
