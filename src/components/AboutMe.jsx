@@ -51,7 +51,6 @@ export default function AboutMe() {
               </h1>
               <p className="karla text-[0.9rem]">
                 I work with front-end and back-end development.
-                <b> HTML</b>, <b>CSS</b>.
               </p>
             </li>
             <li>
