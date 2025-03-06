@@ -1,0 +1,30 @@
+.right-section {
+  position: relative;
+  display: inline-block;
+}
+
+.right-section img {
+  display: block;
+  transition: opacity 0.3s;
+}
+
+/* Create a black overlay */
+.right-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.1s;
+  border-radius: 10px;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+/* Show overlay on hover */
+.right-section:hover::after {
+  opacity: 0.3; /* Adjust for a slight black effect */
+}

@@ -1,4 +1,6 @@
 import "./css/Base.css";
+import "./css/Projects.css";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -59,11 +61,17 @@ export default function Projects() {
               </ul>
             </div>
             <div className="right-section  w-[60%] flex justify-end items-right">
-              <img
-                src="/_project_1.jpg"
-                alt="project#1"
-                className="min-w-[40vh] min-h-[310px] rounded-xl"
-              />
+              <a
+                href="https://login-signup-git-main-gabyels-projects.vercel.app/#/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/_project_1.jpg"
+                  alt="project#1"
+                  className="min-w-[40vh] min-h-[310px] rounded-xl"
+                />
+              </a>
             </div>
           </div>
         </div>
