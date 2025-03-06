@@ -38,7 +38,7 @@ const SkewedBackground = styled.div`
 export default function AboutMe() {
   return (
     <>
-      <div className="about-container w-[100%] h-[200vh] mont">
+      <div className="about-container w-[100%] h-[190vh] mont">
         <h1 className="heading-about text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px]">
           Things I love
         </h1>

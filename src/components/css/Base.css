@@ -121,10 +121,7 @@
 
   .skill-container {
     padding-top: 2240px;
-  }
-
-  .backend {
-    display: none;
+    padding-bottom: 250px;
   }
 
   .skill-set ul li svg {
@@ -142,6 +139,29 @@
   }
   .left .hello {
     line-height: normal;
+  }
+
+  /* proj */
+  .proj-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    min-width: 300px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+
+  .left-section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-section img {
+    min-width: 20vh;
+    min-height: 150px;
   }
 }
 

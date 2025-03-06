@@ -10,12 +10,12 @@ export default function Projects() {
           </h1>
         </div>
         <div className="projects">
-          <div className="proj-1 bg-[#fffffa] shadow-md rounded-2xl h-[fit-content] p-10 flex gap-10">
-            <div className="w-[50%] flex flex-col gap-3">
+          <div className="proj-1 bg-[#fffffa] shadow-md rounded-2xl min-w-[500px] min-h-[300px] p-10 flex gap-10">
+            <div className="left-section w-[40%] flex flex-col gap-3">
               <h1 className="text-[var(--text-color)] font-bold text-[2rem] mont">
                 SimpleAuth
               </h1>
-              <p className="karla">
+              <p className="karla text-[0.9em]">
                 AuthApp is a simple authentication system that allows users to
                 register, log in, reset their password, and access a secure
                 dashboard. It provides a smooth and secure user experience with
@@ -58,11 +58,11 @@ export default function Projects() {
                 </li>
               </ul>
             </div>
-            <div className="w-[50%]">
+            <div className="right-section  w-[60%] flex justify-end items-right">
               <img
                 src="/_project_1.jpg"
                 alt="project#1"
-                className="min-w-[10vh] min-h-[20vh] rounded-xl"
+                className="min-w-[40vh] min-h-[310px] rounded-xl"
               />
             </div>
           </div>
