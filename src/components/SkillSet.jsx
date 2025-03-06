@@ -1,10 +1,9 @@
-import { faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faNode, faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./css/SkillSet.css";
 import "./css/Header.css";
 
-const html = <FontAwesomeIcon icon={faHtml5} />;
-const js = <FontAwesomeIcon icon={faJs} />;
+const node = <FontAwesomeIcon icon={faNode} />;
 const react = <FontAwesomeIcon icon={faReact} />;
 
 export default function SkillSet() {
@@ -16,11 +15,19 @@ export default function SkillSet() {
         </h1>
         <section className="skill-set justify-center">
           <ul className="flex justify-between items-center w-[80%] mx-auto text-[var(--bl-text-color)]">
-            <li>{html}</li>
-            <li>{js}</li>
             <li>{react}</li>
+            <li>{node}</li>
             <li className="flask">
               <img src="/flask.webp" alt="expressLOGO" />
+            </li>
+            <li>
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                alt="PostgreSQL"
+                width="100px"
+                height="100px"
+                className="sql"
+              />
             </li>
           </ul>
         </section>
