@@ -6,7 +6,6 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import Navbar from "./MobileNav";
 
 const github = <FontAwesomeIcon icon={faGithub} />;
 const facebook = <FontAwesomeIcon icon={faFacebook} />;

@@ -7,6 +7,8 @@ import {
   faHome,
   faIdBadge,
   faMicrochip,
+  faMoon,
+  faSun,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import "./css/MobileNav.css";
@@ -48,9 +50,17 @@ const about = <FontAwesomeIcon icon={faAddressCard} />;
 const contact = <FontAwesomeIcon icon={faIdBadge} />;
 const technologies = <FontAwesomeIcon icon={faMicrochip} />;
 const projects = <FontAwesomeIcon icon={faDiagramProject} />;
+const dark = <FontAwesomeIcon icon={faMoon} />;
+const sun = <FontAwesomeIcon icon={faSun} />;
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleMode = () => {
+    setDarkMode((prev) => !prev);
+    document.querySelector(".main").classList.toggle("dark");
+  };
 
   return (
     <>
@@ -80,6 +90,7 @@ export default function Navbar() {
               {contact}
               <p className="nav-links-desc">Contact</p>
             </li>
+            <li onClick={toggleMode}> {darkMode ? sun : dark} </li>
           </ul>
         </div>
       </div>
