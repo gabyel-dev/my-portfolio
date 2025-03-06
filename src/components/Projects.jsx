@@ -18,8 +18,8 @@ export default function Projects() {
                 SimpleAuth
               </h1>
               <p className="karla text-[0.9em]">
-                AuthApp is a simple authentication system that allows users to
-                register, log in, reset their password, and access a secure
+                SimpleAuth is a simple authentication system that allows users
+                to register, log in, reset their password, and access a secure
                 dashboard. It provides a smooth and secure user experience with
                 a clean interface and efficient functionality.
               </p>
