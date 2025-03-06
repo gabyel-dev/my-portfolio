@@ -10,7 +10,7 @@ const react = <FontAwesomeIcon icon={faReact} />;
 export default function SkillSet() {
   return (
     <>
-      <div className="skill-container w-[100%] h-[130vh]">
+      <div className="skill-container w-[100%] h-[60vh]">
         <div className="backend absolute right-0 bg-[#f8f8f8] w-[100%] h-[300px] z-[-1] text-[#C7D0FF] p-20 pl-30 pr-40 flex flex-col gap-20 karla">
           <div className="flex flex-row justify-between font-bold pr-25">
             <p className="text-[1.5rem]">MySQL</p>

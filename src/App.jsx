@@ -2,6 +2,7 @@ import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import SkillSet from "./components/SkillSet";
+import Projects from "./components/Projects";
 import Navbar from "./components/MobileNav";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Home />
         <AboutMe />
         <SkillSet />
+        <Projects />
       </div>
     </>
   );
