@@ -25,8 +25,8 @@
 
 @keyframes appear {
   from {
-    opacity: 0;
-    transform: translateY(20px); /* Optional: Adds movement */
+    opacity: 0.7;
+    transform: translateY(-50px); /* Optional: Adds movement */
   }
   to {
     opacity: 1;

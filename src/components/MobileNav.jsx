@@ -39,7 +39,16 @@ const scrollSkills = () => {
   const SkillSet = document.querySelector(".skill-container");
 
   window.scrollTo({
-    top: SkillSet.offsetTop,
+    top: SkillSet.offsetTop + 2200,
+    behavior: "smooth",
+  });
+};
+
+const scrollProj = () => {
+  const Proj = document.querySelector(".proj-container");
+
+  window.scrollTo({
+    top: Proj.offsetTop,
     behavior: "smooth",
   });
 };
@@ -82,7 +91,7 @@ export default function Navbar() {
               {technologies}
               <p className="nav-links-desc">Skills</p>
             </li>
-            <li onClick={scrollHome}>
+            <li onClick={scrollProj}>
               {projects}
               <p className="nav-links-desc">Projects</p>
             </li>

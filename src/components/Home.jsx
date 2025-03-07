@@ -75,7 +75,7 @@ export default function Home() {
         <div className="right flex flex-col max-w-[500px] h-[fit-content] min-w-[fit-content]">
           <div className="relative z-0">
             {/* Card Section */}
-            <section className="dev-card min-w-[350px] max-w-[100%] min-h-[240px] body-color rounded-[10px] shadow text-[var(--text-color)] text-nowrap">
+            <section className="dev-card min-w-[350px] max-w-[100%] min-h-[240px] bg-[#fbfafa] rounded-[10px] shadow text-[var(--text-color)] text-nowrap">
               <ol className="card-content">
                 <li>
                   1 &nbsp;&nbsp;class <b>Person</b> {"{"}
