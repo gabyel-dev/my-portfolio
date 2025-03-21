@@ -11,7 +11,7 @@ const submit = <FontAwesomeIcon icon={faPaperPlane} />;
 export default function Contact() {
   return (
     <>
-      <h1 className="contact text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont pt-10 sm:pt-21">
+      <h1 className="contact text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont pt-30">
         Get In Touch
       </h1>
 
