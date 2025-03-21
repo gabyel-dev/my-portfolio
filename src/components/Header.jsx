@@ -45,7 +45,7 @@ const contact = () => {
   const Contact = document.querySelector(".contact");
 
   window.scrollTo({
-    top: Contact.offsetTop,
+    top: Contact.offsetTop + 110,
     behavior: "smooth",
   });
 };
