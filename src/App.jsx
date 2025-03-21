@@ -16,12 +16,7 @@ function App() {
       <Header />
       <div className="main flex-col flex ml-[10vw] mr-[10vw] mb-[6vw] mt-[215px]">
         <Home />
-        <AboutMe />
-        <SkillSet />
-        <Projects />
-        <Contact />
       </div>
-      <Footer />
     </>
   );
 }
