@@ -11,13 +11,13 @@ const submit = <FontAwesomeIcon icon={faPaperPlane} />;
 export default function Contact() {
   return (
     <>
-      <h1 className="contact text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont">
+      <h1 className="contact text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont pt-10">
         Get In Touch
       </h1>
 
-      <div className="contact-container h-auto w-full flex flex-col lg:flex-row justify-center items-center mont ">
+      <div className="contact-container h-auto w-full flex flex-col lg:flex-row justify-center items-center mont  ">
         {/* Left Container */}
-        <div className="left-container gap-2 text-white lg:w-[30%] w-full h-[200px] lg:h-[80vh] bg-[#6d83f2] lg:rounded-br-xl lg:rounded-tr-xl lg:rounded-tl-xl lg:rounded-bl-xl sm:rounded-tr-xl sm:rounded-tl-xl flex flex-col justify-center items-center">
+        <div className="left-container gap-2 text-white lg:w-[30%] w-full h-[200px] lg:h-[80vh] bg-[#6d83f2] lg:rounded-br-xl lg:rounded-tr-xl lg:rounded-tl-xl lg:rounded-bl-xl rounded-tr-xl rounded-tl-xl flex flex-col justify-center items-center">
           {hand}
           <p className="text-xl font-bold">Thank You</p>
           <p className="text-sm text-center">Do You Have Any Queries?</p>
