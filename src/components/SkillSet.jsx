@@ -10,7 +10,7 @@ export default function SkillSet() {
   return (
     <>
       <div className="skill-container w-[100%] h-[60vh]">
-        <h1 className="text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont">
+        <h1 className="text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont pt-5">
           My Skillsets
         </h1>
         <section className="skill-set justify-center">
