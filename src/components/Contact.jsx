@@ -11,7 +11,7 @@ const submit = <FontAwesomeIcon icon={faPaperPlane} />;
 export default function Contact() {
   return (
     <>
-      <h1 className="contact text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont pt-10">
+      <h1 className="contact text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont pt-16">
         Get In Touch
       </h1>
 
@@ -29,10 +29,10 @@ export default function Contact() {
             {/* Email & Name Fields */}
             <div className="flex flex-col lg:flex-row w-full justify-between gap-4">
               <div className="w-full">
-                <p className="pb-2">Email</p>
+                <p className="pb-2 text-md">Email</p>
                 <input
                   type="email"
-                  className="bg-[#EBEBEB] rounded-sm w-full h-11 px-4"
+                  className="bg-[#EBEBEB] rounded-sm w-full h-11 px-4 text-sm"
                   placeholder="example@gmail.com"
                 />
               </div>
@@ -40,7 +40,7 @@ export default function Contact() {
                 <p className="pb-2">Name</p>
                 <input
                   type="text"
-                  className="bg-[#EBEBEB] rounded-sm w-full h-11 px-4"
+                  className="bg-[#EBEBEB] rounded-sm w-full h-11 px-4 text-sm"
                   placeholder="John Doe"
                 />
               </div>
@@ -49,13 +49,13 @@ export default function Contact() {
             {/* Message Field */}
             <p className="pt-8 pb-2">Message</p>
             <textarea
-              className="bg-[#EBEBEB] rounded-md w-full h-[210px] px-4 py-2 text-left resize-none"
+              className="bg-[#EBEBEB] rounded-md w-full h-[210px] px-4 py-2 text-left resize-none text-sm"
               placeholder="Hey There!"
             ></textarea>
           </form>
 
           {/* Submit Button */}
-          <div className="bg-[#6d83f2] px-4 py-2 w-full lg:w-[15%] rounded-md text-white flex gap-2 justify-center items-center mt-4">
+          <div className="bg-[#6d83f2] px-4 py-2 w-full lg:w-[15%] rounded-md text-sm text-white flex gap-2 justify-center items-center mt-4">
             {submit}
             <button>Submit</button>
           </div>
