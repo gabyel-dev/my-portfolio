@@ -81,7 +81,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="z-100">
+      <div className="z-100 flex justify-between  ">
         <button className="nav-btn" onClick={() => setIsOpen(!isOpen)}>
           <FontAwesomeIcon icon={isOpen ? faXmark : faBars} />
         </button>
