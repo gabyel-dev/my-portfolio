@@ -27,7 +27,25 @@ const scrollSkills = () => {
   const SkillSet = document.querySelector(".skill-container");
 
   window.scrollTo({
-    top: SkillSet.offsetTop,
+    top: SkillSet.offsetTop - 200,
+    behavior: "smooth",
+  });
+};
+
+const projects = () => {
+  const Projects = document.querySelector(".proj-container");
+
+  window.scrollTo({
+    top: Projects.offsetTop,
+    behavior: "smooth",
+  });
+};
+
+const contact = () => {
+  const Contact = document.querySelector(".contact");
+
+  window.scrollTo({
+    top: Contact.offsetTop,
     behavior: "smooth",
   });
 };
@@ -37,18 +55,14 @@ export default function Header() {
     <>
       <div className="nav-bar w-[100vw] h-[60px] overflow-hidden fixed top-0 mont flex flex-row justify-between items-center body-color shadow z-50">
         <div className="text-[var(--text-color)] text-[2.4rem] anurati flex flex-col leading-[7px]">
-          <img
-            src="/logo.webp"
-            alt="my-logo"
-            className="w-10 h-9 mt-1"
-          />
+          <img src="/logo.webp" alt="my-logo" className="w-10 h-9 mt-1" />
         </div>
         <ul className="flex flex-row gap-[3vw] text-[var(--text-color)]">
           <li onClick={scrollHome}>home</li>
           <li onClick={scrollAbout}>about me</li>
           <li onClick={scrollSkills}>technologies</li>
-          <li onClick={scrollHome}>projects</li>
-          <li onClick={scrollHome}>contact</li>
+          <li onClick={projects}>projects</li>
+          <li onClick={contact}>contact</li>
         </ul>
       </div>
     </>

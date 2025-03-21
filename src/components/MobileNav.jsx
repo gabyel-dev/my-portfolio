@@ -53,6 +53,14 @@ const scrollProj = () => {
   });
 };
 
+const scrollcontact = () => {
+  const contact = document.querySelector(".contact");
+
+  window.scrollTo({
+    top: contact.offsetTop,
+    behavior: "smooth",
+  });
+};
 //navlogo
 const home = <FontAwesomeIcon icon={faHome} />;
 const about = <FontAwesomeIcon icon={faAddressCard} />;
@@ -95,7 +103,7 @@ export default function Navbar() {
               {projects}
               <p className="nav-links-desc">Projects</p>
             </li>
-            <li onClick={scrollHome}>
+            <li onClick={scrollcontact}>
               {contact}
               <p className="nav-links-desc">Contact</p>
             </li>

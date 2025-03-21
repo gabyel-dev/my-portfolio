@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import SkillSet from "./components/SkillSet";
 import Projects from "./components/Projects";
 import Navbar from "./components/MobileNav";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <AboutMe />
         <SkillSet />
         <Projects />
+        <Contact />
       </div>
+      <Footer />
     </>
   );
 }
