@@ -9,7 +9,7 @@ const react = <FontAwesomeIcon icon={faReact} />;
 export default function SkillSet() {
   return (
     <>
-      <div className="skill-container w-[100%] lg:h-[55vh] sm:h-[60vh]">
+      <div className="skill-container w-[100%] sm:h-[100vh] lg:h-[55vh] ">
         <h1 className="text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont pt-20 lg:pt-0">
           My Skillsets
         </h1>
