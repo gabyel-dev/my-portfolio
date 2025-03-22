@@ -17,7 +17,7 @@ export default function Contact() {
 
       <div className="contact-container h-auto w-full flex flex-col lg:flex-row justify-center items-center mont  ">
         {/* Left Container */}
-        <div className="left-container gap-2 text-white lg:w-[30%] w-full h-[200px] lg:h-[80vh] bg-[#6d83f2] lg:rounded-br-xl lg:rounded-tr-xl lg:rounded-tl-xl lg:rounded-bl-xl rounded-tr-xl rounded-tl-xl flex flex-col justify-center items-center">
+        <div className="left-container gap-2 text-white lg:w-[30%] w-full h-[200px] lg:h-[80vh] bg-gradient-to-tl from-[#6a98f0] to-[#4961dc]  lg:rounded-br-xl lg:rounded-tr-xl lg:rounded-tl-xl lg:rounded-bl-xl rounded-tr-xl rounded-tl-xl flex flex-col justify-center items-center">
           {hand}
           <p className="text-xl font-bold">Thank You</p>
           <p className="text-sm text-center">Do You Have Any Queries?</p>
@@ -55,7 +55,7 @@ export default function Contact() {
           </form>
 
           {/* Submit Button */}
-          <div className="bg-[#6d83f2] px-4 py-2 w-full lg:w-[15%] rounded-md text-sm text-white flex gap-2 justify-center items-center mt-4">
+          <div className="bg-gradient-to-tl from-[#6a98f0] to-[#4961dc] px-4 py-2 w-full lg:w-[15%] rounded-md text-sm text-white flex gap-2 justify-center items-center mt-4">
             {submit}
             <button>Submit</button>
           </div>
