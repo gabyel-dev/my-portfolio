@@ -42,7 +42,7 @@
 
 /* Scrollbar handle (draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: var(--text-color); /* Dark gray */
+  background: rgb(167, 167, 255); /* Dark gray */
   border-radius: 10px;
 }
 
