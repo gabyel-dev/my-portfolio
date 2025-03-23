@@ -50,6 +50,8 @@ export default function Home() {
                 <a
                   href="https://www.linkedin.com/in/gab-guban-474237334/"
                   aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {linkedIn}
                 </a>
@@ -58,12 +60,19 @@ export default function Home() {
                 <a
                   href="https://www.facebook.com/gab.guban"
                   aria-label="Facebook"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {facebook}
                 </a>
               </li>
               <li>
-                <a href="https://github.com/dv-gb" aria-label="GitHub">
+                <a
+                  href="https://github.com/dv-gb"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {github}
                 </a>
               </li>
