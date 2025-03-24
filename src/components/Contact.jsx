@@ -57,7 +57,7 @@ export default function Contact() {
           {/* Submit Button */}
           <div className="bg-gradient-to-tl from-[#6a98f0] to-[#4961dc] px-4 py-2 w-full lg:w-[15%] rounded-md text-sm text-white flex gap-2 justify-center items-center mt-4">
             {submit}
-            <button>Submit</button>
+            <button className="cursor-pointer">Submit</button>
           </div>
         </div>
       </div>

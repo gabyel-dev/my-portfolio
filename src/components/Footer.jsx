@@ -6,12 +6,23 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-const github = <FontAwesomeIcon icon={faGithub} className="text-[#383838]" />;
+const github = (
+  <FontAwesomeIcon
+    icon={faGithub}
+    className="text-[#383838] hover:text-white transition duration-200"
+  />
+);
 const facebook = (
-  <FontAwesomeIcon icon={faFacebook} className="text-[#383838]" />
+  <FontAwesomeIcon
+    icon={faFacebook}
+    className="text-[#383838] hover:text-white transition duration-200"
+  />
 );
 const linkedIn = (
-  <FontAwesomeIcon icon={faLinkedin} className="text-[#383838]" />
+  <FontAwesomeIcon
+    icon={faLinkedin}
+    className="text-[#383838] hover:text-white transition duration-200"
+  />
 );
 
 export default function Footer() {

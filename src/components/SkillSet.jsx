@@ -15,20 +15,44 @@ export default function SkillSet() {
         </h1>
         <section className="skill-set justify-center">
           <ul className="flex justify-between items-center w-[80%] mx-auto text-[var(--bl-text-color)]">
-            <li>{react}</li>
-            <li>{node}</li>
-            <li className="flask">
-              <img src="/flask.webp" alt="expressLOGO" />
-            </li>
-            <li>
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
-                alt="PostgreSQL"
-                width="100px"
-                height="100px"
-                className="sql"
-              />
-            </li>
+            <a
+              href="https://react.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li>{react}</li>
+            </a>
+            <a
+              href="https://nodejs.org/en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li>{node}</li>
+            </a>
+            <a
+              href="https://flask.palletsprojects.com/en/stable/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="flask">
+                <img src="/flask.webp" alt="expressLOGO" />
+              </li>
+            </a>
+            <a
+              href="https://www.postgresql.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li>
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                  alt="PostgreSQL"
+                  width="100px"
+                  height="100px"
+                  className="sql"
+                />
+              </li>
+            </a>
           </ul>
         </section>
       </div>
