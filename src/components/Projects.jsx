@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   return (
     <>
-      <div className="proj-container h-[160vh] w-[100%]">
+      <div className="proj-container sm:h-[190vh] lg:h-[160vh] w-[100%]">
         <div>
           <h1 className="text-[var(--text-color)] font-black text-[1.7rem] text-center mt-[100px] mb-[40px] mont">
             My Projects
